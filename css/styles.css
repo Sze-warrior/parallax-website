@@ -1,3 +1,6 @@
+.header { -webkit-transition: all linear 0.2s; transition: all linear 0.2s; }
+.header.shrink-up { margin-top: -45px; -webkit-transition: all linear 0.2s; transition: all linear 0.2s; }
+
 .nav-bar { background: #333333; height: 3.25rem; line-height: 2.8125rem; margin-bottom: 0; overflow: hidden; position: relative; padding-left: 120px; padding-right: 120px; }
 @media screen and (max-width: 1080px) { .nav-bar { padding-left: 80px; padding-right: 80px; } }
 @media screen and (max-width: 1024px) { .nav-bar { padding-left: 50px; padding-right: 50px; } }

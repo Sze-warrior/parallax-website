@@ -11,6 +11,17 @@ $pad-bottom: 50px;
 
 $footer-height: 200px;
 
+.header{
+
+    transition: all linear 0.2s;
+
+    &.shrink-up{
+        margin-top: -45px;
+        transition: all linear 0.2s;
+    }
+
+}
+
 .nav-bar {
     background: #333333;
     height: 3.25rem;
@@ -20,7 +31,6 @@ $footer-height: 200px;
     position: relative;
     padding-left: 120px;
     padding-right: 120px;
-
 
     //navbar sizing for 1080px
     @media screen and (max-width: $width-xlarge){
